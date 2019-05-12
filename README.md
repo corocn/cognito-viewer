@@ -1,22 +1,30 @@
-# cognito-playground
+# Cognito Playground
 
-> My premium Nuxt.js project
+ * Improve your development with Amplify and Cognito. 
+ * Don't use this in production.
 
-## Build Setup
+## ScreenShot
 
-``` bash
-# install dependencies
-$ npm install
+![auth](./docs/auth.png)
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+![token](./docs/token.png)
 
-# build for production and launch server
-$ npm run build
-$ npm start
+## Setup
 
-# generate static project
-$ npm run generate
+```shell
+cp .env.sample .env
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+```
+AUTH_IDENTITYPOOLID=ap-northeast-1:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+AUTH_REGION=ap-northeast-1
+AUTH_USERPOOLID=ap-northeast-1_xxxxxxxxx
+AUTH_USERPOOLWEBCLIENTID=xxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+
+```
+npm install
+npm run dev
+```
+
