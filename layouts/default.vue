@@ -71,14 +71,14 @@ export default {
           to: '/token'
         },
         {
-          icon: 'info',
-          title: 'Environment',
-          to: '/env'
+          icon: 'vpn_key',
+          title: 'JSON Web Key',
+          to: '/well-known'
         },
         {
           icon: 'info',
-          title: 'JSON Web Key',
-          to: '/well-known'
+          title: 'Environment',
+          to: '/env'
         }
       ],
       buttons: [],
