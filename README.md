@@ -1,7 +1,9 @@
 # Cognito Viewer
 
- * Improve your development with Amplify and Cognito. 
- * Don't use this in production.
+ * Improve your development with Amplify and Cognito in local.
+   * Authentication flow with Amplify.
+   * View idToken, accessToken, refreshToken pretty.
+   * View .well-known/jwks.json pretty.
 
 ## ScreenShot
 
