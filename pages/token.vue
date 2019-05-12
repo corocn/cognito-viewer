@@ -1,6 +1,6 @@
 <template>
   <v-layout column justify-center align-center>
-    <amplify-authenticator></amplify-authenticator>
+    <token-viewer></token-viewer>
   </v-layout>
 </template>
 

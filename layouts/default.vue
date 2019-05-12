@@ -42,6 +42,7 @@
 
 <script>
 export default {
+  middelwares: ['amplify'],
   data() {
     return {
       clipped: false,
@@ -49,9 +50,14 @@ export default {
       fixed: false,
       items: [
         {
-          icon: 'apps',
-          title: 'Amplify + Cognito',
+          icon: 'person',
+          title: 'Authentication',
           to: '/'
+        },
+        {
+          icon: 'vpn_key',
+          title: 'Token',
+          to: '/token'
         }
       ],
       miniVariant: false,
