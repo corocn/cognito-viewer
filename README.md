@@ -1,4 +1,4 @@
-# Cognito Playground
+# Cognito Viewer
 
  * Improve your development with Amplify and Cognito. 
  * Don't use this in production.

@@ -68,7 +68,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Cognito Playground'
+      title: 'Cognito Viewer'
     }
   }
 }
