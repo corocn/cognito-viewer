@@ -92,6 +92,9 @@ module.exports = {
       // }
     }
   },
+  router: {
+    middleware: ['authenticated']
+  },
   env: {
     AUTH_IDENTITYPOOLID,
     AUTH_REGION,
