@@ -74,6 +74,11 @@ export default {
           icon: 'info',
           title: 'Environment',
           to: '/env'
+        },
+        {
+          icon: 'info',
+          title: 'JSON Web Key',
+          to: '/well-known'
         }
       ],
       buttons: [],
