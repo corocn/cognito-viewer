@@ -58,6 +58,11 @@ export default {
           icon: 'vpn_key',
           title: 'Token',
           to: '/token'
+        },
+        {
+          icon: 'info',
+          title: 'Environment',
+          to: '/env'
         }
       ],
       miniVariant: false,
