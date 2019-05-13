@@ -1,6 +1,5 @@
 # Cognito Viewer
  * Cognito Viewer is a support tool for development with amazon cognito and amplify.
- * Support
    * Sample authenticator with Amplify.
    * Pretty viewer for idToken, accessToken, refreshToken and jwks.json.
 
