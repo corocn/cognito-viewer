@@ -37,7 +37,7 @@
             </v-card-title>
 
             <v-card-text class="background-white">
-              <JwtViewer :jwt="refreshToken.jwtToken" />
+              refreshToken is encrypted.
             </v-card-text>
           </v-card>
         </v-flex>
@@ -83,12 +83,7 @@ export default {
     },
     accessToken() {
       return this.currentSession
-        ? this.currentSession.idToken
-        : { jwtToken: '', payload: '' }
-    },
-    refreshToken() {
-      return this.currentSession
-        ? this.currentSession.idToken
+        ? this.currentSession.accessToken
         : { jwtToken: '', payload: '' }
     },
     clockDrift() {
